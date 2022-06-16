@@ -1,0 +1,114 @@
+:root {
+    --font-family-b: InterB, san-serif;
+    --font-family-l: InterL, san-serif;
+    --font-family-r: InterR, san-serif;
+    --font-family-m: InterM, san-serif;
+}
+*{padding: 0;margin: 0;border: 0;}
+/*обращение ко всем тегам, снимаем стандартные параметры тегам(у каждого тега свои параметры)*/
+*,*:before, *:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*убираем линии обводки у некоторых браузеров*/}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%; font-size: 100%;line-height: 1; font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+/*уравнивает поведеине шрифтов и элементов для разных браузеров, запрещает самовольное увелечение шрифта на айфонах*/
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    width: 1170px;
+    margin: 0px  auto;
+}
+body {
+    font-family: InterM;
+}
+.text-white{
+    color: white;
+}
+.px32-black {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: InterB;
+    color: #424242;
+    text-align: center;
+}
+.px32-white{
+    letter-spacing: 1px;
+    font-size: 32px;
+    padding-bottom: 10px;
+    font-family: InterL;
+    color: #ffffff;
+}
+.px21-white{
+    font-weight: 700;
+    font-size: 21px;
+    font-family: InterB;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.px21-black{
+    font-weight: 700;
+    font-size: 21px;
+    font-family: InterB;
+    color: #424242;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.px18-white{
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-family: InterL;
+    color: #818181;
+    font-style: italic;
+}
+.px16{
+    font-size: 16px;
+    font-style: italic;
+    color: #818181;
+    text-align: center;
+    line-height: 25px;
+}
+.greenline{
+    background-color: #62aa94;
+    height: 5px;
+    width: 40px;
+    margin: 50px auto;
+}
+.lilgreenline{
+    background-color: #62aa94;
+    height: 1px;
+    width: 45px;
+    margin: 50px auto;
+}
+.greencircles-1{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #51c2b9;
+    margin: 15px 3px 0px 3px;
+}
+.greencircles-1:hover,
+.greencircles-1:focus {
+    height: 14px;
+    width: 14px;
+}
+.greencircles{
+    display: flex;
+    justify-content: center;
+}

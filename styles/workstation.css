@@ -1,0 +1,14 @@
+.workstations{
+    padding: 100px 0px;
+}
+.workstations-blocks{
+    display: flex;
+}
+.workstations-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.workstations-img{
+    padding: 0px 0px 50px 0px;
+}

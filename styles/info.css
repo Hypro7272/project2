@@ -1,0 +1,16 @@
+.info{
+    display: flex;
+    background-color: #f8f8f8;
+    height: 510px;
+    overflow: hidden;
+}
+.info-img{
+    width: 50%;
+    min-width: 50%;
+}
+.info-responsive{
+    margin: 100px 250px 0px 50px;
+}
+.info-responsive p{
+    padding-bottom: 30px;
+}

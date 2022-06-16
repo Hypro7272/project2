@@ -1,0 +1,41 @@
+.what{
+    padding: 100px 0px;
+}
+.what-blocks{
+    display: flex;
+}
+.what-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.what-circles{
+    height: 120px;
+    width: 120px;
+    border: 1px solid #51c2b9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 65px;
+}
+.what-diamo{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #51c2b9;
+    border-radius: 50%;
+    background-color: #51c2b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+ }
+.what-diamo:hover,
+.what-diamo:focus{
+    height: 120px;
+    width: 120px;
+    background-color: #51c2b9;
+}
+.what-diamo-img{
+    height: 40px;
+}

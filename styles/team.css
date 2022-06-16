@@ -1,0 +1,115 @@
+.team{
+    padding: 100px 0px;
+}
+.team-blocks{
+    display: flex;
+}
+.team-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-img{
+    padding: 0px 0px 50px 0px;
+}
+
+
+
+
+.email{
+    background: url("../images/background/4.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 333px;
+}
+.email-buttons{
+    display: flex;
+    justify-content: center;
+}
+.email-title{
+    padding: 100px 0px 50px 0px;
+}
+.email-button{
+    height: 52px;
+    width: 236px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.email-button:hover,
+.email-button:focus{
+    height: 52px;
+    width: 236px;
+    background: transparent;
+}
+.email-textarea{
+    height: 52px;
+    width: 320px;
+    outline: none;
+    margin: 0px 5px 0px 0px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+}
+::placeholder{
+    color: #ffffff;
+    opacity: 1;
+    font-style: italic;
+}
+
+
+
+
+
+.contacts{
+    padding: 100px 0px;
+}
+.contacts-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts-blocks{
+    background-color: #f8f8f8;
+    width: 360px;
+    height: 250px;
+    text-align: center;
+}
+.contacts-image{
+    height: 30px;
+    width: 30px;
+    margin: 40px 0px;
+    background-color: #51c2b9;
+}
+.lilgreenline2{
+    background-color: #62aa94;
+    height: 1px;
+    width: 45px;
+    margin: 30px auto;
+}
+
+.footer{
+    background-color: #202020;
+    padding: 60px 0px;
+}
+.footer-body{
+    display: flex;
+    justify-content: center;
+}
+.footer-text{
+    text-align: center;
+    padding: 0px 10px;
+}
+.footer-circle{
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    background-color: #51c2b9;
+    transition: all 0.5s ease;
+}
+
+.footer-circle:active{
+    background-color: #f8f8f8;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+}

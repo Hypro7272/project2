@@ -1,0 +1,59 @@
+.header{
+    background: url("../images/background/1.jpg") no-repeat;
+    background-size: cover;
+    padding: 0px 0px 340px 0px;
+    /*height: 970px;*/
+    /*min-height: 659px;*/
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+.header-nav-logo{
+    background-color: white;
+    height: 50%;
+    padding: 7px 10px;
+}
+.header-nav-menu {
+    display: flex;
+    align-items: center;
+}
+.header-nav-text {
+    padding: 0px 20px;
+    font-size: 18px;
+}
+.header-nav-iconmenu{
+    background-color: white;
+}
+
+
+
+.header-intro{
+    text-align: center;
+    padding: 340px 0px 0px 0px;
+}
+.header-title1{
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0px 0px 20px 0px;
+}
+.header-title2{
+    letter-spacing: 3px;
+    font-size: 32px;
+    padding-bottom: 100px;
+    font-family: InterL;
+    color: #ffffff;
+}
+.header-intro-link{
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 14px 85px;
+    letter-spacing: 2px;
+    transition: background 0.3s ease;
+}
+.header-intro-link:hover{
+    background-color: white;
+    color: rgba(0,0,0,0.6);
+}

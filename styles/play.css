@@ -1,0 +1,23 @@
+.play{
+    background: url("../images/background/3.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.play-circle{
+    padding: 0px 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin: 0px 10px;
+    transition: background-color 0.3s ease;
+}
+.play-circle:hover{
+    background-color: #ffffff;
+}
+.play-body{
+    display: flex;
+    align-items: center;
+    padding: 150px 0px;
+    justify-content: center;
+}
